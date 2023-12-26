@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#height{
+    margin: 15px;
+}
+
+#weight{
+    margin: 15px;
+}
+
+#submit-btn{
+    display: flex;
+    margin-top: 25px;
+    margin-left : 135px;
+    align-items: center;
+    justify-content: center;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+}
